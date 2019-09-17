@@ -2,7 +2,7 @@
   Example Code: Connect 2 MCP401x devices and the POTTY resistace changes between A-W or B-W from Min to Max in unity steps.
   In order to set to the resistance value, please calculate it and accordingly set it with the number of steps.
   For example: On MCP4011: A-B Resistance is 5k Ohm, So one step increment of the wiper from POR value of 2.5k Ohm,
-                         would be 2.k Ohm + (5k Ohm / 64). Please read the data sheet about the zero offset on each devices.
+                         would be 2.k Ohm + Wiper step resistance. Please read the data sheet about the zero offset on each devices.
   Author: Ranjan Kumar Rath rath.ranjankumar@gmail.com
 */
 
